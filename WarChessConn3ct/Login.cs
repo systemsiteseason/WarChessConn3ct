@@ -40,8 +40,8 @@ namespace WarChessConn3ct
             Random r = new Random();
             for (int i = 0; i < 3; i++)
                 nicknameBox.AppendText(r.Next(10).ToString());
-            /*for (int i = 0; i < 3; i++)
-                roomBox.AppendText(r.Next(10).ToString());*/
+            for (int i = 0; i < 3; i++)
+                roomBox.AppendText(r.Next(10).ToString());
         }
     }
 }
